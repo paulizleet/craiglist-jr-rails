@@ -1,0 +1,11 @@
+<div class="container">
+  <h1><%= @ad.title %></h1>
+
+  <p>
+  <%= @ad.description %>
+  </p>
+  <%= @ad.price %>
+
+  <%= render plain: <a href="/localities/<%=@locality[:name]%>/<%=@category[:name]%>/<%=@ad[:id]%>/edit">Edit this listing</a> %>
+
+</div>

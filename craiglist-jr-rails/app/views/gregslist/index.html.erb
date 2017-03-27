@@ -1,0 +1,12 @@
+<div class="container">
+
+  <!-- list all localities with links -->
+  <ul>
+  <% @localities.each do |loc| %>
+    <li>
+      <a href="localities/<%=loc[:name]%>"><%=loc[:name]%></a>
+    </li>
+  <% end %>
+  </ul>
+
+</div>

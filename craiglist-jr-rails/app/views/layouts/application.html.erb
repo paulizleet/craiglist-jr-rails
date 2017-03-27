@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>CraiglistJrRails</title>
-    <%= csrf_meta_tags %>
+<html lang="en">
+<head>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
-  </head>
+  <link rel="stylesheet" href="/css/normalize.css">
 
-  <body>
-    <%= yield %>
-  </body>
+  <link rel="stylesheet" href="/css/application.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+
+  <title>gregslist</title>
+</head>
+<body>
+  <h3>gregslist</h3>
+  <%= yield %>
+</body>
 </html>
